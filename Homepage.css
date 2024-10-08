@@ -1,0 +1,278 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url('Light\ Grey\ Soft\ Background\ for\ Photos\ -\ Poly\ Paper\ \(Printed\)\ _\ 5\'W\ x\ 6\'H.jpeg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*Navigator bar section*/
+.navigator{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    background-color: #656568cb;
+}
+.navbars{
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 1rem;
+    float: right;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.navbars li a{
+    text-align: center;
+}
+.navbars li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+.navbars li a:hover{
+
+    background-color: #dfdfdf77;
+    padding-top:10px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: ease-in;
+    transition-duration: 0.2s;
+    transform-style: preserve-3d;
+}
+
+.CVplatform{
+    padding-top: 10px;
+    font-size: 1rem;
+    padding-left: 10px;
+    display: inline-block;
+}
+.CVplatform p {
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+}
+/*welcome & paragraph section*/
+
+.welcome{
+    font-size: 3em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color:rgb(255, 255, 255) ;
+    stroke: #ffe46b;
+    font-style: normal;
+    text-align: center;
+}
+.paragraph{
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: center;
+    display: block;
+    color: white;
+
+}
+.wel{
+    padding-bottom: 20px;
+}
+/*Orderlist*/
+
+.order-List li{
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 4em;
+}
+.order-List a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+
+}
+#cont{
+    text-align: center;
+}
+.container1{
+    text-align: center;
+    background-color: rgba(240, 240, 240, 0.356);;
+    display:inline-block;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+.container2{
+    display: inline-block;
+    justify-content: space-between;
+    border-color:#000080;
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom:  6%;
+    background-color: rgb(240, 240, 240);;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+.container3{
+    display: inline-block;
+    justify-content: space-between;
+    border-color:#000080;
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom:  6%;
+    background-color: rgb(240, 240, 240);
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+/*max width*/
+@media all and (max-width:561px){
+    html{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-image:url('pinemobile.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-clip: border-box;
+    }
+            
+    /*Navbar mobile*/
+    .navigator {
+        background-color: #d6d6d6b6;
+        display: flex;
+        flex-direction:column;
+        border-radius: 1px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+
+    }
+    .CVplatform{
+        padding-top: 5px;
+        padding-right: 10px;
+        display:inline;
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 1.3em;
+    }
+    
+    /* }
+    .navigator{
+        padding-top: 10px;
+        justify-content: space-between;
+        background-color:;
+        padding-bottom: 50px;
+    }
+    .CVplatform{
+        text-align: center;
+    } */
+    /*//////////////////*/
+
+        .navbars{
+            font-size: 1rem;
+            float: right;
+            list-style: none;
+            justify-content: space-between;
+            display:flex;
+            gap: 1px;
+            padding-left: 10px;
+        }
+        .navbars li a:hover{
+            background-color: #416b4381 ;
+            color: #000000;
+            transition: ease-in;
+            transition-duration: 0.1s;
+            border-radius: 10px;
+            padding-left: 8px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-right: 8px;
+        }
+        /*welcome and paragraph*/
+      
+        .welcome{
+            font-size: 2.5em;
+            margin-bottom: 0%;
+            padding-bottom: 25px;
+
+        }
+        .paragraph{
+            font-family: "Roboto", sans-serif;
+            font-weight: 200;
+            font-style: normal;
+            line-height: 2rem;
+            margin: 0 auto;
+        }
+        .wel{
+            padding-top: 10px;
+        }
+
+        /*orderlist*/
+        .order-List{
+            padding-top:0;
+            padding-right: 10px;
+            padding-left: 10px;
+            border-radius: 70px;
+            border-style: hidden;
+        }
+        .order-List li{
+            text-align: center;
+            line-height: 1.7rem;
+        }
+        .order-List li p {
+            padding-top: 10px;
+            margin: 0 auto;
+            text-align: center;
+            color:rgb(0, 0, 0);
+            
+        }
+        .container1{
+            text-align: center;
+            background-color: rgba(240, 240, 240, 0.356);;
+            display:inline-block;
+            justify-content: space-between;
+            border-radius: 20px;
+            padding-top: 6%;
+            padding-bottom: 6%;
+            padding-left: 5%;
+            padding-right: 5%;
+        
+        }
+
+
+
+
+
+
+
+
+
+    }
+
